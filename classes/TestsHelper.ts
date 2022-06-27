@@ -1,5 +1,5 @@
 import { Row } from "read-excel-file";
-import {EOperatingSystem, TVisitor} from "../models/model";
+import { EOperatingSystem, TVisitor } from "../models/model";
 const userAgentParser = require('ua-parser-js');
 
 export class TestsHelper {
