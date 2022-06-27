@@ -5,8 +5,6 @@ import { TestsHelper } from "../classes/TestsHelper";
 import readXlsxFile from "read-excel-file/node";
 import { TVisitor } from "../models/model";
 
-// npx playwright test ./tests/tests.spec.ts
-
 test.describe('Find Malicious Bots', () => {
     test('If a specified IP address is found as an origin of a malicious bot, pass the test', async () => {
         const data: TVisitor[] = await getData()
