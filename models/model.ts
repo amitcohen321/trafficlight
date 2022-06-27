@@ -8,7 +8,7 @@ export type TVisitor = {
 }
 
 export enum EOperatingSystem {
-    WINDOWS,
-    MAC,
-    LINUX
+    WINDOWS = 'WINDOWS',
+    MAC = 'MAC',
+    LINUX = 'LINUX'
 }
