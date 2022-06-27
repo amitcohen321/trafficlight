@@ -3,7 +3,7 @@
 Links
 -----
 github repo: https://github.com/amitcohen321/trafficlight
-docker image in docker hub: https://hub.docker.com/r/amitco321/trafficlight
+docker image in docker: https://hub.docker.com/r/amitco321/trafficlight
 
 
 Starting the app
