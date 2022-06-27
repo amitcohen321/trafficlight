@@ -30,14 +30,14 @@ export class TestsHelper {
     }
 
     private static standardizeOsName(os: string): string {
-        const operatingSystemsMapping = {
-            'MAC OS': EOperatingSystem.MAC,
-            'SLACKWARE': EOperatingSystem.LINUX,
-            'UBUNTU': EOperatingSystem.LINUX,
-            'ARCHLINUX': EOperatingSystem.LINUX,
-            'default': os
+        const operatingSystemsMapping: { [index: string]: string } = {
+            "MAC OS": EOperatingSystem.MAC,
+            "SLACKWARE": EOperatingSystem.LINUX,
+            "UBUNTU": EOperatingSystem.LINUX,
+            "ARCHLINUX": EOperatingSystem.LINUX,
+            "default": os
         };
 
-        return (operatingSystemsMapping[os] || operatingSystemsMapping['default'])
+        return operatingSystemsMapping[os] || operatingSystemsMapping['default']
     }
 }
